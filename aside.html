@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="row w-100">
+        <div class="col-md-2 d-none d-md-none d-lg-block">
+            <div class="m-3">
+                <div class="aside-header">
+                    <h5 class="aside-title" id="asideExampleLabel">Ảnh logo</h5>
+                </div>
+                <div class="aside-body">
+                    <div>
+                        <div class="list-group list-group-flush">
+                            <button type="button"
+                                class="list-group-item list-group-item-action d-flex justify-content-between"
+                                aria-current="true" data-bs-toggle="collapse" href="#collapseExample1" role="button"
+                                aria-expanded="false" aria-controls="collapseExample1">
+                                <div>Dashbroad</div>
+                                <i class="bi bi-chevron-down"></i>
+                            </button>
+                            <div class="collapse" id="collapseExample1">
+                                <div class="">1</div>
+                                <div class="">1</div>
+                                <div class="">1</div>
+                                <div class="">1</div>
+                            </div>
+    
+    
+                            <button type="button" class="list-group-item list-group-item-action">A second button
+                                item</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-10 d-none d-md-none d-lg-block">
+            <div class="container mt-3">
+                <form class="position-relative mx-2" role="search">
+                    <input class="form-control px-5 shadow-sm p-3 mb-5 bg-body rounded" type="text"
+                        placeholder="Tìm kiếm..." aria-label="Search">
+                    <div class="position-absolute top-50 start-0 translate-middle-y px-3 d-none d-md-none d-lg-block">
+                        <i class="bi bi-search "></i>
+                    </div>
+                    <div class="position-absolute top-50 end-0 translate-middle-y px-3">
+                        <div class="user img-fluid">
+                            <img src="img/1.png" alt="" class="rounded-circle">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Tablet And Mobile -->
+        <div class="col-md-12">
+            <div class="container mt-3 d-lg-none">
+                <form class="position-relative mx-2" role="search">
+                    <input class="form-control px-5 shadow-sm p-3 mb-5 bg-body rounded" type="text"
+                        placeholder="Tìm kiếm..." aria-label="Search">
+                    <div class="position-absolute top-50 start-0 translate-middle-y px-3">
+                        <i class="bi bi-list fs-4" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                            aria-controls="offcanvasExample"></i>
+                    </div>
+
+                    <!-- Thông tin list header -->
+                    <div class="offcanvas offcanvas-start w-75" tabindex="-1" id="offcanvasExample"
+                        aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Ảnh logo</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div>
+
+
+                                <div class="list-group list-group-flush">
+                                    <button type="button"
+                                        class="list-group-item list-group-item-action d-flex justify-content-between"
+                                        aria-current="true" data-bs-toggle="collapse" href="#collapseExample1"
+                                        role="button" aria-expanded="false" aria-controls="collapseExample1">
+                                        <div>Dashbroad</div>
+                                        <i class="bi bi-chevron-down"></i>
+                                    </button>
+                                    <div class="collapse" id="collapseExample1">
+                                        <div class="">1</div>
+                                        <div class="">1</div>
+                                        <div class="">1</div>
+                                        <div class="">1</div>
+                                    </div>
+
+
+                                    <button type="button" class="list-group-item list-group-item-action">A second button
+                                        item</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Thông tin list header -->
+
+                    <div class="position-absolute top-50 end-0 translate-middle-y px-3">
+                        <div class="user img-fluid">
+                            <img src="img/1.png" alt="" class="rounded-circle">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
